@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewStation.Core", "BrewSta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewStation.Tests", "BrewStation.Tests\BrewStation.Tests.csproj", "{5A2E0ACC-4495-4D24-18A8-CC382559A6B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewStation.IntegrationTests", "BrewStation.IntegrationTests\BrewStation.IntegrationTests.csproj", "{BD500CD0-39E5-4AE8-B3B2-0C66C3FDD53B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5A2E0ACC-4495-4D24-18A8-CC382559A6B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A2E0ACC-4495-4D24-18A8-CC382559A6B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A2E0ACC-4495-4D24-18A8-CC382559A6B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD500CD0-39E5-4AE8-B3B2-0C66C3FDD53B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD500CD0-39E5-4AE8-B3B2-0C66C3FDD53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD500CD0-39E5-4AE8-B3B2-0C66C3FDD53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD500CD0-39E5-4AE8-B3B2-0C66C3FDD53B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

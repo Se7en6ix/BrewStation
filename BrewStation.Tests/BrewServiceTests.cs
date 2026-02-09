@@ -1,5 +1,4 @@
 ﻿using BrewStation.Core.Services;
-using BrewStation.Core.Time;
 
 namespace BrewStation.Tests;
 
@@ -42,14 +41,4 @@ public class BrewServiceTests
         Assert.NotNull(result.Response);
         Assert.Equal("Your piping hot coffee is ready", result.Response!.Message);
     }
-}
-
-public class FakeClock : IClock
-{
-    public FakeClock(DateTimeOffset now)
-    {
-        UtcNow = now;
-    }
-
-    public DateTimeOffset UtcNow { get; }
 }
